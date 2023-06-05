@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telling story</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">  <!-- navbar stil-->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/511f8ede26.js" crossorigin="anonymous"></script>
+
+    <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg py-3 bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold fs-3" href="#">Bojan Čakar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#Biography">Biography</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#Hobies">Hobies</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#Gallery">Gallery</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="homepage" id="home">  
+      <div class="sadrzaj">
+        <div class="text">
+          <h1>Telling Story</h1>
+          <p>
+            Hello, my name is Bojan. Welcome to the homepage of my "telling story" project for college. <br> I hope you will like this. </p>
+        </div>
+        <a href="#Biography">Let's continue scrolling</a>
+      </div>
+    </section>  
+
+    <section class="bio" id="Biography">
+      <h2>Biography</h2>
+      <p>Discover something about me</p>
+      <div class="row company-info">
+        <h3>Growing Up</h3>
+        <p align="justify"> I was born on September 22, 1999, in the small town of Milici, Bosnia and Herzegovina. As a child, I was curious and full of energy, always exploring the world around me. When I was just five years old, my family and I moved to the city of Bijeljina, where I began my life journey and made new friends.</p>
+      </div>
+      <div class="row mission-vision">
+        <h3>Education</h3>
+        <p align="justify">I completed my elementary education at "Jovan Ducic" primary school in Bijeljina in 2014. During my school days, I showed exceptional learning abilities and achieved excellent results. After finishing elementary school, I enrolled in a secondary gymnasium, which I successfully completed in 2018. In 2021, I enrolled in the Novi Sad School of Business Higher Business. Majoring in Applied Informatics. I am currently in my second year of studies.</p>
+        <h3>Career</h3> 
+        <p align="justify">In 2022, I started working at an IT company called Cyberlab. Initially, I was an intern for three months, and then I received a job offer. Currently, I work in the same company as a DevOps engineer.</p>
+      
+      </div>
+    </section>
+<!-- Fudbal, Knjige, Biciklizam, Putovanja, video igre, gledanje filmova/serija -->
+    <section class="hobi" id="Hobies">
+      <h2>Hobies </h2>
+      <p>Hobbies are my passion and a source of joy in my free time.</p>
+      <ul class="cards">
+        <li class="card">
+          <img src="slike/fudbal.jpg" alt="img">
+          <h3>Football</h3>
+          <p> I am a passionate football lover, and I enjoy the most when I can step onto the field and feel the adrenaline of every pass and shot.</p>
+        </li>
+        <li class="card">
+          <img src="slike/biciklizam.jpg" alt="img">
+          <h3>Cycling</h3>
+          <p>Cycling is my freedom and a way to explore the world around me. I adore the feeling of the wind in my hair as I pedal through beautiful landscapes.</p>
+        </li>
+        <li class="card">
+          <img src="slike/video-igre.jpg" alt="img">
+          <h3>Video games</h3>
+          <p>I spend every spare moment playing video games because I am thrilled by the ability to get lost in fantastic worlds and achieve incredible feats.</p>
+        </li>
+        <li class="card">
+          <img src="slike/netflix.jpg" alt="img">
+          <h3>Watching series</h3>
+          <p> I enjoy series that take me on unforgettable journeys through different stories and characters, providing me with excitement and an emotional connection to them.</p>
+        </li>
+        <li class="card">
+          <img src="slike/putovanja.jpg" alt="img">
+          <h3>Traveling</h3>
+          <p>Traveling is my greatest source of inspiration and discovering new cultures. I love exploring uncharted parts of the world and creating unforgettable memories.</p>
+        </li>
+        <li class="card">
+          <img src="slike/knjige.jpg" alt="img">
+          <h3>Books</h3>
+          <p>Books are my refuge from reality. I enjoy getting lost in the realms of imagination and absorbing the wisdom and stories that literature offers.</p>
+        </li>
+      </ul>
+    </section>
+
+
+    <div id="Gallery" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#Gallery" data-slide-to="0" class="active"></li>
+        <li data-target="#Gallery" data-slide-to="1"></li>
+        <li data-target="#Gallery" data-slide-to="2"></li>
+
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="slike/galerija11.png" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img src="slike/galerija2.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img src="slike/galerija3.png" alt="Third slide">
+        </div>
+      </div>
+    </div>
+
+    <section class="kontakt" id="Contact">
+      <h2>Contact me</h2>
+      <p>Reach out to me for any inquiries or feedback.</p>
+      <div class="row">
+        <div class="col informacije">
+          <div class="kontakt-detalji">
+            <p><i class="fas fa-map-marker-alt"></i> Jevrejska 14, Novi Sad</p>
+            <p><i class="fas fa-envelope"></i> cakarbojan10@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +381 654208838</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2808.7188205745015!2d19.837685776957976!3d45.25347837107134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b104202196bf5%3A0x2fdebb80e14a9902!2z0IjQtdCy0YDQtdGY0YHQutCwIDE0LCDQndC-0LLQuCDQodCw0LQ!5e0!3m2!1ssr!2srs!4v1685913964060!5m2!1ssr!2srs" width="350" height="250" style="border: 1px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>          
+        </div>
+        <div class="col form">
+          <form action="mailto:cakarbojan10@gmail.com" method="POST" enctype="text/plain">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button id="submit" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-top">
+        <span class="link">
+          <a href="#">Home</a>
+          <a href="#Biography">Biography</a>
+          <a href="#Hobies">Hobies</a>
+          <a href="#Gallery">Gallery</a>
+          <a href="#Contact">Contact</a>
+        </span>
+      </div>
+      <div class="footer-bottom">
+        <span class="link">
+          <a href="https://www.facebook.com/cakarbojan"><i class='fa fa-facebook'></i></a>
+          <a href="https://www.linkedin.com/in/cakarbojan/"><i class='fa fa-linkedin'></i></a>
+          <a href="https://www.instagram.com/cakarbojan"><i class='fa fa-instagram'></i></a>
+          <a href="https://www.github.com/bojancakar"><i class='fa fa-github'></i></a></li>
+          <a href="mailto:cakarbojan10@gmail.com"><i class='fa fa-envelope'></i></a></li>
+        </span>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- carousel -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Ovo je za carousel -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!-- skripta za responsive navbar u dropdown -->
+  </body>
+</html>
